@@ -29,7 +29,7 @@ class NewTodo extends Component {
     })
   }
 
-  postTodoHandler = () => {
+  Handler = () => {
     this.props.onStoreTodo(this.state.title, this.state.content, this.state.dueDate);
   }
 
